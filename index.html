@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f1e6" />
+    <meta
+      name="description"
+      content="方寸食光 / Food & Table —— Minecraft 基岩版创造模式装饰附加包。102 道能吃的菜、碗盘餐具，以及厨房、餐厅、医院、教室、办公室等几百件生活场景摆件。"
+    />
+    <title>方寸食光 · Food & Table — Minecraft 基岩版装饰附加包</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      // 纯 JS：在 Vue 挂载前标记运行环境，避免无 JS / 减弱动效时首屏闪烁
+      document.documentElement.classList.add('js');
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.documentElement.classList.add('reduce-motion');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
